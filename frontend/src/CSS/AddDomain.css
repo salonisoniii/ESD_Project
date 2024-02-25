@@ -1,0 +1,97 @@
+.navbar {
+    /* Navbar background color */
+    padding: 15px; /* Adjust the padding as needed */
+    color: #fff; /* Text color */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    position: fixed;
+    z-index: 1000;
+  }
+  
+  .navbar h1 {
+    font-size: 50px; /* Adjust the font size as needed */
+    margin: 0;
+    color:black;
+    text-align: center;
+    font-family: 'Poppins',sans-serif;
+  }
+  
+  .navbar a {
+    color: palevioletred; /* Link color */
+    text-decoration: none;
+    margin-left: 20px; /* Adjust the margin between links */
+  }
+  
+  /* Optional: Add a hover effect */
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Optional: Adjust spacing and font styles for buttons */
+  .btn {
+    margin-left: 10px; /* Adjust the margin between buttons */
+    font-size: 16px; /* Adjust the font size of buttons */
+    padding: 8px 16px; 
+    margin-bottom: 10px;/* Adjust the padding of buttons */
+  }
+  
+  /* Optional: Add a hover effect for buttons */
+  .btn:hover {
+    background-color: #0056b3; /* Hover background color */
+  }
+  
+.container-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 1200px;
+    margin-right:200px;
+  }
+    
+  .form-group {
+    margin-bottom: 25px;
+    width: 400px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .mb-4 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Poppins',sans-serif;
+  }
+  
+  .label-class{
+    font-size: 20px;
+    color:darkcyan;
+    margin-bottom: 10px; /* Choose your preferred color */
+    /* Add other styles as needed */
+  }
+  .custom{
+    margin-left: 130px;
+    font-size: 20px;
+  }
+  /* Optional: Add some responsive styling */
+  @media (max-width: 768px) {
+    .form-container {
+      max-width: 100%;
+    }
+  }

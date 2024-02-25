@@ -1,0 +1,83 @@
+.navbar {
+    padding: 15px; /* Adjust the padding as needed */
+    color: #fff; /* Text color */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+    top: 0%;
+    width: 70%;
+  }
+  
+  .navbar h1 {
+    font-size: 50px; /* Adjust the font size as needed */
+    margin: 0;
+    color:black;
+    text-align: center;
+    font-family: 'Poppins',sans-serif;
+  }
+  
+  .navbar a {
+    color: palevioletred; /* Link color */
+    text-decoration: none;
+    margin-left: 20px; /* Adjust the margin between links */
+  }
+  
+  /* Optional: Add a hover effect */
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Optional: Adjust spacing and font styles for buttons */
+  .btn {
+    margin-left: 10px; /* Adjust the margin between buttons */
+    font-size: 16px; /* Adjust the font size of buttons */
+    padding: 8px 16px; 
+    margin-bottom: 10px;/* Adjust the padding of buttons */
+  }
+  
+  /* Optional: Add a hover effect for buttons */
+  .btn:hover {
+    background-color: #0056b3; /* Hover background color */
+  }
+  
+.container {
+    margin: 50px auto;
+  }
+  
+  .py-4 {
+    padding: 1rem;
+  }
+    
+  .table-c {
+    width: 100%;
+    margin-bottom:3rem;
+    margin-top: 200px;
+  }
+  .table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+  }
+  .table td, .table th {
+    padding: 2rem;
+    vertical-align:top;
+    border-top: 1px solid #dee2e6;
+    font-size: 20px; 
+  }
+   
+  .btn-primary, .btn-warning {
+    color: #fff;
+  }
+  
+  .btn-group {
+    margin-right: 5px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .table thead {
+      display: none;
+    }
+  
+  }

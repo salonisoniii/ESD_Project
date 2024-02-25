@@ -1,0 +1,49 @@
+.navbar-m{
+    padding: 15px; /* Adjust the padding as needed */
+    color: #fff; /* Text color */
+    display: flex;
+    justify-content: space-between;
+    margin-left: 900px;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+    top: 0%;
+    width: 70%;
+  }
+  
+  .navbar a {
+    color: palevioletred; /* Link color */
+    text-decoration: none;
+    margin-left: 20px; /* Adjust the margin between links */
+  }
+  
+  /* Optional: Add a hover effect */
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+.container-mod{
+    width: 600px;
+    margin-right: 300px;
+}
+.form-control-2 {
+    width: 400px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    transition: border-color 0.3s;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    margin-right:50px;
+    margin-top: 10px;
+}
+
+
+.form-label {
+    padding: 10px;
+    margin-right: 20px; /* Adjust the margin as needed */
+}
+.btn{
+    margin-left: 90px;
+}
